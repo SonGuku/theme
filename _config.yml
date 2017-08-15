@@ -1,0 +1,16 @@
+menu:
+  主页: /https://songuku.github.io/blog/
+  归档: /archives
+
+logo: XXX
+
+
+about:
+  title: Theme Pln
+  link: https://github.com/SonGuku/SonGuku.github.io
+
+disqus_shortname:
+
+excerpt_num: 120
+
+footer_info: © XXX 20xx-2017
