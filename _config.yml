@@ -1,16 +1,31 @@
-menu:
-  主页: /https://songuku.github.io/blog/
-  归档: /archives
+# Permalinks
+permalink:      /:year-:month-:day/:title
 
-logo: XXX
+# Setup
+title:          Tale
+paginate:       5
+baseurl:        ""
+url:            "https://github.com/SonGuku/theme"
 
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        :compressed
 
-about:
-  title: Theme Pln
-  link: https://github.com/SonGuku/SonGuku.github.io
+# Build settings
+markdown:       kramdown
 
-disqus_shortname:
+# About
+author:
+  name:         Wen Zixun
+  url:          http://www.wenzixunblog.com
+  email:        524172206@qq.com
 
-excerpt_num: 120
+# Custom vars
+version:        3.4.1
+github:
+  repo:         https://github.com/SonGuku/theme
 
-footer_info: © XXX 20xx-2017
+# Gems
+gems:
+  - jekyll-paginate
